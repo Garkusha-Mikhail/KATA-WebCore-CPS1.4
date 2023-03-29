@@ -124,11 +124,11 @@
   filter: opacity(0.75);
 }
 
-.mainMenu__item--active a {
+.mainMenu__item--active:hover a {
   color: #7E7E82;
 }
 
-.mainMenu__item--active::before {
+.mainMenu__item--active:hover::before {
   content: "";
   background: #41F6D7;
   width: 4px;
@@ -170,11 +170,8 @@
   cursor: pointer;
 }
 
-.leng__item--active {
+.leng__item--active:hover {
   color: #7E7E82;
-}
-
-.leng__item:hover {
   filter: opacity(0.75);
 }
 
