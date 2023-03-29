@@ -89,9 +89,9 @@
 }
 .burgerIcon--close:hover {
     animation-name: burgerOpen;
-    
-}
+    }
 
+    
 .checkstatus {
     margin-left: auto;
 }
@@ -123,10 +123,10 @@
     filter: opacity(0.75);
     
 }
-.mainMenu__item--active a {
+.mainMenu__item--active:hover a {
     color: #7E7E82;
 }
-.mainMenu__item--active::before {
+.mainMenu__item--active:hover::before {
     content: "";
     background: #41F6D7;
     width: 4px;
@@ -136,9 +136,7 @@
     left: 0;
         
 }
-.botomMenu {
-    
-}
+
 .bottomMenu__list {
     list-style: none;
     padding: 0;
@@ -166,12 +164,11 @@
     font-weight: 700;
     cursor: pointer;
   }
-.leng__item--active {
+.leng__item--active:hover {
     color: #7E7E82;
-}
-.leng__item:hover {
     filter: opacity(0.75);
 }
+
 .bottomMenu__phone {
     font-size: 24px;
     line-height: 32px;
